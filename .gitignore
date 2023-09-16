@@ -1,0 +1,25 @@
+[200~# Ignore all files that start with a dot
+*.
+
+# Ignore all build artifacts
+**/bin
+**/obj
+
+# Ignore all test artifacts
+**/tests/bin
+**/tests/obj
+
+# Ignore all NuGet packages
+**/packages
+
+# Ignore all .NET Core temporary files
+**/.NETCore/*
+
+# Ignore all Visual Studio temporary files
+**/.vs/*
+
+# Ignore all .gitignore files
+
+**/.idea/*
+examples.txt
+
